@@ -1,32 +1,258 @@
 {
   "mainMenu": [
-    { "label": "Home", "href": "/", "visible": true },
+    {
+      "label": "Home",
+      "href": "/",
+      "visible": true
+    },
     {
       "label": "Services",
       "href": "/services",
       "visible": true,
-      "children": []
+      "children": [
+        {
+          "label": "Fire & Smoke Damage Cleanup",
+          "href": "/services/fire-smoke-damage",
+          "description": "Complete fire damage restoration including smoke odor removal, soot cleaning, and structural rehabilitation."
+        },
+        {
+          "label": "Multifamily Property Remediation",
+          "href": "/services/multifamily-remediation",
+          "description": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption."
+        },
+        {
+          "label": "Clearance & Verification Support",
+          "href": "/services/clearance-verification",
+          "description": "Third-party testing coordination and documentation for regulatory compliance and project sign-off."
+        },
+        {
+          "label": "Water Damage Mitigation",
+          "href": "/services/water-damage-mitigation",
+          "description": "Rapid response water extraction and structural drying to prevent secondary damage and restore your property."
+        },
+        {
+          "label": "Commercial Property Remediation",
+          "href": "/services/commercial-remediation",
+          "description": "Large-scale remediation services for offices, retail, industrial facilities, and multi-tenant buildings."
+        },
+        {
+          "label": "Asbestos & Lead Abatement",
+          "href": "/services/asbestos-lead-abatement",
+          "description": "Licensed hazardous material removal following EPA and Cal/OSHA regulations for safe property remediation."
+        },
+        {
+          "label": "Mold Remediation",
+          "href": "/services/mold-remediation",
+          "description": "Professional mold removal and prevention using containment protocols and HEPA filtration systems."
+        }
+      ]
     },
     {
       "label": "Service Areas",
       "href": "/service-areas",
       "visible": true,
-      "children": []
+      "children": [
+        {
+          "label": "San Francisco",
+          "href": "/service-areas/san-francisco-ca",
+          "description": "San Francisco, CA"
+        },
+        {
+          "label": "San Jose",
+          "href": "/service-areas/san-jose-ca",
+          "description": "San Jose, CA"
+        },
+        {
+          "label": "San Mateo",
+          "href": "/service-areas/san-mateo-ca",
+          "description": "San Mateo, CA"
+        },
+        {
+          "label": "Santa Clara",
+          "href": "/service-areas/santa-clara-ca",
+          "description": "Santa Clara, CA"
+        },
+        {
+          "label": "Oakland",
+          "href": "/service-areas/oakland-ca",
+          "description": "Oakland, CA"
+        },
+        {
+          "label": "Berkeley",
+          "href": "/service-areas/berkeley-ca",
+          "description": "Berkeley, CA"
+        }
+      ]
     },
-    { "label": "About", "href": "/about", "visible": true },
-    { "label": "Contact", "href": "/contact", "visible": true }
+    {
+      "label": "About",
+      "href": "/about",
+      "visible": true
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "visible": true
+    }
   ],
   "footerMenu": {
     "company": [
-      { "label": "About Us", "href": "/about" },
-      { "label": "Contact", "href": "/contact" },
-      { "label": "Reviews", "href": "/reviews" }
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      {
+        "label": "Reviews",
+        "href": "/reviews"
+      }
     ],
-    "services": [],
-    "areas": []
+    "services": [
+      {
+        "label": "Fire & Smoke Damage Cleanup",
+        "href": "/services/fire-smoke-damage",
+        "description": "Complete fire damage restoration including smoke odor removal, soot cleaning, and structural rehabilitation."
+      },
+      {
+        "label": "Multifamily Property Remediation",
+        "href": "/services/multifamily-remediation",
+        "description": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption."
+      },
+      {
+        "label": "Clearance & Verification Support",
+        "href": "/services/clearance-verification",
+        "description": "Third-party testing coordination and documentation for regulatory compliance and project sign-off."
+      },
+      {
+        "label": "Water Damage Mitigation",
+        "href": "/services/water-damage-mitigation",
+        "description": "Rapid response water extraction and structural drying to prevent secondary damage and restore your property."
+      },
+      {
+        "label": "Commercial Property Remediation",
+        "href": "/services/commercial-remediation",
+        "description": "Large-scale remediation services for offices, retail, industrial facilities, and multi-tenant buildings."
+      },
+      {
+        "label": "Asbestos & Lead Abatement",
+        "href": "/services/asbestos-lead-abatement",
+        "description": "Licensed hazardous material removal following EPA and Cal/OSHA regulations for safe property remediation."
+      }
+    ],
+    "areas": [
+      {
+        "label": "San Francisco",
+        "href": "/service-areas/san-francisco-ca",
+        "description": "San Francisco, CA"
+      },
+      {
+        "label": "San Jose",
+        "href": "/service-areas/san-jose-ca",
+        "description": "San Jose, CA"
+      },
+      {
+        "label": "San Mateo",
+        "href": "/service-areas/san-mateo-ca",
+        "description": "San Mateo, CA"
+      },
+      {
+        "label": "Santa Clara",
+        "href": "/service-areas/santa-clara-ca",
+        "description": "Santa Clara, CA"
+      },
+      {
+        "label": "Oakland",
+        "href": "/service-areas/oakland-ca",
+        "description": "Oakland, CA"
+      },
+      {
+        "label": "Berkeley",
+        "href": "/service-areas/berkeley-ca",
+        "description": "Berkeley, CA"
+      }
+    ]
   },
-  "servicesList": [],
-  "areasList": [],
-  "_generated": "2024-01-01T00:00:00.000Z",
-  "_businessName": "Business Name"
+  "servicesList": [
+    {
+      "slug": "fire-smoke-damage",
+      "name": "Fire & Smoke Damage Cleanup",
+      "isFeatured": true
+    },
+    {
+      "slug": "multifamily-remediation",
+      "name": "Multifamily Property Remediation",
+      "isFeatured": false
+    },
+    {
+      "slug": "clearance-verification",
+      "name": "Clearance & Verification Support",
+      "isFeatured": false
+    },
+    {
+      "slug": "water-damage-mitigation",
+      "name": "Water Damage Mitigation",
+      "isFeatured": true
+    },
+    {
+      "slug": "commercial-remediation",
+      "name": "Commercial Property Remediation",
+      "isFeatured": false
+    },
+    {
+      "slug": "asbestos-lead-abatement",
+      "name": "Asbestos & Lead Abatement",
+      "isFeatured": false
+    },
+    {
+      "slug": "mold-remediation",
+      "name": "Mold Remediation",
+      "isFeatured": true
+    }
+  ],
+  "areasList": [
+    {
+      "slug": "san-francisco-ca",
+      "city": "San Francisco",
+      "state": "CA",
+      "isPrimary": true
+    },
+    {
+      "slug": "san-jose-ca",
+      "city": "San Jose",
+      "state": "CA",
+      "isPrimary": false
+    },
+    {
+      "slug": "san-mateo-ca",
+      "city": "San Mateo",
+      "state": "CA",
+      "isPrimary": false
+    },
+    {
+      "slug": "santa-clara-ca",
+      "city": "Santa Clara",
+      "state": "CA",
+      "isPrimary": false
+    },
+    {
+      "slug": "oakland-ca",
+      "city": "Oakland",
+      "state": "CA",
+      "isPrimary": false
+    },
+    {
+      "slug": "berkeley-ca",
+      "city": "Berkeley",
+      "state": "CA",
+      "isPrimary": false
+    }
+  ],
+  "features": {
+    "storeEnabled": false
+  },
+  "_generated": "2026-02-04T00:31:36.292Z",
+  "_businessName": "Premier Remediation"
 }
